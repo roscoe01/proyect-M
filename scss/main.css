@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: white;
+  display: grid;
+  place-items: center center;
+}
+
+a, li {
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0px 10%;
+  background-color: lightgray;
+}
+
+.logo-tienda {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo-tienda img {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links li a {
+  transition: color 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  color: red;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 60px;
+  grid-gap: 40px;
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+
+.card {
+  background-color: rgb(128, 15, 15);
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+.details {
+  padding: 10px 10px;
+}
+.details h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0px 10px 5px 0px;
+}
+.details p {
+  color: white;
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 400px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,58 @@
+[
+{
+    "id": 1,
+    "productName": "Berserk Vol 8",
+    "category": "Manga",
+    "price": "1100",
+    "image": "/assets/berserk08.jpg"
+},
+{   
+    "id": 2,
+    "productName": "Venom Vol 6",
+    "category": "Comic",
+    "price": "1300",
+    "image": "/assets/venom06.jpg"
+},
+{   
+    "id": 3,
+    "productName": "Naruto Vol 8",
+    "category": "Manga",
+    "price": "1100",
+    "image": "/assets/naruto08.jpg"
+},
+{   
+    "id": 4,
+    "productName": "Banana Fish Vol 3",
+    "category": "Manga",
+    "price": "1700",
+    "image": "/assets/bananafish03.jpg"
+},
+{
+    "id": 5,
+    "productName": "YuGiOh Vol 7",
+    "category": "Manga",
+    "price": "2100",
+    "image": "/assets/yugioh07.jpg"
+},
+{
+    "id": 6,
+    "productName": "Vinland Saga Vol 1",
+    "category": "Manga",
+    "price": "1400",
+    "image": "/assets/vinlandsaga01.jpg"
+},
+{
+    "id": 7,
+    "productName": "SpiderMan 08",
+    "category": "Comic",
+    "price": "2300",
+    "image": "/assets/spiderman08.jpg"
+},
+{
+    "id": 8,
+    "productName": "Jujutsu Kaisen Vol 11",
+    "category": "Manga",
+    "price": "1100",
+    "image": "/assets/jujutsukaisen11.jpg"
+}
+]
