@@ -1,0 +1,72 @@
+.cards{
+    display: grid;
+    
+    @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 960px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (min-width: 1300px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (min-width: 1600px) {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    margin-top: 50px;
+    grid-gap: 40px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: white;
+    width: 320px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+    img{
+        width: 100%;
+        border: 1px inset black;
+        height: auto;
+        display: block;
+        border-radius: 20px 20px 0 0;
+    }
+    
+}
+
+.details{
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    h3{
+        color: black;
+        font-weight: 600;
+        font-size: 24px;
+        margin: 0px 10px 5px 0px;
+    }
+    p{
+        color: black;
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 5px;
+    }
+    .addToCart{
+        width: 100%;
+        color: white;
+        border: none;
+        font-weight: bolder;
+        cursor: pointer;
+        border-radius: 10px;
+        height: 30px;
+        font-size: 16px;
+        background-color: rgb(211, 41, 41);
+        border: 1px inset black;
+    }
+}
+ 

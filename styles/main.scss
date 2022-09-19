@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import './header';
+@import './cards';
+@import './landingPage';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Karla', sans-serif; 
+}
+
+body{
+    background: #c7a47c;
+    background-image: radial-gradient(#997e60 1px, transparent 1px);
+    background-size: 10px 10px;
+}
+
+
+

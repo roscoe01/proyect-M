@@ -1,0 +1,52 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0px 10%;
+    border: 1px solid #997e60;
+    background-color: #FE95B3;    // #e587a7 Decidirse que color usar.
+    a,li{
+        font-family: 'Carter One', cursive;
+        font-weight: 500;
+        font-size: 20px; 
+        text-decoration: none;
+        color: black;
+        
+    }
+}
+
+.logo-tienda{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    img{
+        height: 70px;
+        margin-right: 15px;
+    }
+    h2{
+        font-family: 'Carter One', cursive;
+        transition: all 250ms ease 0s;            
+    }
+    h2:hover{
+        color: white;
+        transform: scale(1.1);
+    }
+
+}
+
+.nav-links{
+    list-style: none; // Con esta propiedad css le sacamos los bullets a la lista.
+    li{
+        display: inline-block; // Con esta propiedad lo que hago es hacer que sean elementos de bloque de linea, por lo tanto estarian puestos horizontalmente en vez de verticalmente
+        padding: 0px 20px;
+        a{
+            transition: all 250ms ease 0s;       
+        }
+        a:hover{
+            color: white;
+        }
+    }
+}
