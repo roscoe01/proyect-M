@@ -12,20 +12,21 @@ const fetchData = async () => {
     try{
         const res = await fetch('data.json');
         const data = await res.json();
-        pintarCards(data);
+        pintarMangas(data);
     } catch (error) {
         console.log(error);
     }
 }
 
 
-const pintarCards = data => {
+const pintarMangas = data => {
     data.forEach(product => {
+        if(product.category === 'Manga'){
         templateCard.querySelector('h3').textContent = product.productName;
         templateCard.querySelector('p').textContent = '$' + product.price;
         templateCard.querySelector('img').setAttribute("src", product.image);
         const clone = templateCard.cloneNode(true);
         fragment.appendChild(clone);
-    });
+    }});
     items.appendChild(fragment);
 }

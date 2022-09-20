@@ -24,7 +24,7 @@
     "id": 4,
     "productName": "Banana Fish Vol 3",
     "category": "Manga",
-    "price": "1700",
+    "price": "2100",
     "image": "/assets/bananafish03.jpg"
 },
 {
@@ -43,7 +43,7 @@
 },
 {
     "id": 7,
-    "productName": "SpiderMan Vol 08",
+    "productName": "Amazing Spiderman 08",
     "category": "Comic",
     "price": "2300",
     "image": "/assets/spiderman08.jpg"
@@ -54,5 +54,53 @@
     "category": "Manga",
     "price": "1100",
     "image": "/assets/jujutsukaisen11.jpg"
+},{
+    "id": 9,
+    "productName": "Berserk Vol 27",
+    "category": "Manga",
+    "price": "1100",
+    "image": "/assets/berserk27.jpg"
+},
+{
+    "id": 10,
+    "productName": "Wolverine Especial",
+    "category": "Comic",
+    "price": "2500",
+    "image": "/assets/wolverine01.jpg"
+},
+{
+    "id": 11,
+    "productName": "Amazing Spiderman 06",
+    "category": "Comic",
+    "price": "2100",
+    "image": "/assets/spiderman06.jpg"
+},
+{
+    "id": 12,
+    "productName": "Berserk Vol 9",
+    "category": "Manga",
+    "price": "1100",
+    "image": "/assets/berserk09.jpg"
+},
+{
+    "id": 13,
+    "productName": "Berserk Vol 31",
+    "category": "Manga",
+    "price": "1100",
+    "image": "/assets/berserk31.jpg"
+},
+{
+    "id": 14,
+    "productName": "Banana Fish Vol 7",
+    "category": "Manga",
+    "price": "2100",
+    "image": "/assets/bananafish07.jpg"
+},
+{
+    "id": 15,
+    "productName": "Paradise Kiss Vol 09",
+    "category": "Manga",
+    "price": "450",
+    "image": "/assets/paradisekiss09.jpg"
 }
 ]

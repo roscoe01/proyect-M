@@ -19,14 +19,38 @@
         <nav>
             <ul id="lista" class="nav-links">
                 <li><a href="/productos.html">Productos</a></li>
-                <li><a href="/productos.html">Mangas</a></li>
-                <li><a href="">Comics</a></li>
+                <li><a href="/mangas.html">Mangas</a></li>
+                <li><a href="/comics.html">Comics</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
 
-    </header>
+    </header>  
 
-    <script src="productos.js"></script>
+    <div>
+        <div class="row cards" id="items">
+
+        </div>
+    </div>
+
+
+    <template id="template-card" > 
+        <div class="card card1">
+            <a href="/productoDetalle.html" class="container">
+                <img src="/assets/berserk08.jpg" alt="Berserk Vol 08">
+            </a>
+            <div class="details">
+                <h3></h3>
+                <hr></hr>
+                <p>Precio: </p>
+                <button class="addToCart"> Añadir al carrito </button>
+            </div>
+            
+        </div>
+    </template>       
+        
+    </div>
+
+    <script src="comics.js"></script>
 </body>
 </html>

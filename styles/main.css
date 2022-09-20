@@ -52,9 +52,8 @@ header a, header li {
 
 .cards {
   display: grid;
-  margin-top: 50px;
+  margin: 50px;
   grid-gap: 40px;
-  font-family: "Karla", sans-serif;
   color: white;
 }
 @media (min-width: 768px) {
@@ -81,23 +80,27 @@ header a, header li {
 .card {
   border-radius: 20px;
   background-color: white;
+  font-family: "Carter One", cursive;
   width: 320px;
+  height: auto;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 }
 .card img {
   width: 100%;
-  border: 1px inset black;
-  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border: 2px inset black;
+  height: 300px;
   display: block;
   border-radius: 20px 20px 0 0;
 }
 
 .details {
   padding: 10px;
-  border-radius: 0px 0px 10px 10px;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
+  border-radius: 0px 0px 15px 15px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
 }
 .details h3 {
   color: black;
@@ -110,6 +113,7 @@ header a, header li {
   font-size: 20px;
   line-height: 35px;
   margin-bottom: 5px;
+  font-family: "Carter One", cursive;
 }
 .details .addToCart {
   width: 100%;
@@ -120,20 +124,72 @@ header a, header li {
   border-radius: 10px;
   height: 30px;
   font-size: 16px;
-  background-color: rgb(211, 41, 41);
+  background-color: #e587a7;
   border: 1px inset black;
+  transition: all 250ms ease 0s;
+}
+.details .addToCart:hover {
+  background-color: #ab647c;
 }
 
+.content {
+  height: 800px;
+}
 .content .info {
+  position: relative;
+  left: 10%;
+  top: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: 600px;
-  width: 75%;
+  height: 300px;
+  width: 900px;
   background-color: #ed909b;
-  border: 10px solid white;
+  border: 8px solid #997e60;
   border-radius: 50px;
+  color: white;
+  padding: 50px;
+}
+.content .info h1 {
+  width: 100%;
+  font-family: "Carter One", cursive;
+  font-weight: 500;
+  font-size: xx-large;
+}
+.content .info p {
+  font-family: "Carter One", cursive;
+  font-weight: 500;
+  font-size: 20px;
+  width: 100%;
+  margin: 15px;
+}
+.content .info a {
+  border-radius: 20px;
+  color: black;
+  box-shadow: 2px 2px 10px 0px black;
+  background-color: whitesmoke;
+  padding: 12px;
+  font-weight: bolder;
+  text-decoration: none;
+  transition: all 250ms ease 0s;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.content .info a:hover {
+  background-color: #997e60;
+  color: whitesmoke;
+}
+.content img {
+  position: fixed;
+  height: 600px;
+  width: 650px;
+  left: 65%;
+  top: 40%;
+}
+
+.botonesLandingPage {
+  margin: 25px;
 }
 
 * {

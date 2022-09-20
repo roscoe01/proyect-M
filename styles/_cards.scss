@@ -17,21 +17,25 @@
         grid-template-columns: repeat(5, 1fr);
     }
 
-    margin-top: 50px;
+    margin: 50px;
     grid-gap: 40px;
-    font-family: 'Karla', sans-serif;
+    
+    
     color: white;
 }
 
 .card{
     border-radius: 20px;
     background-color: white;
+    font-family: 'Carter One', cursive;
     width: 320px;
+    height: auto;
     box-shadow: 0 0 30px rgba(0,0,0,0.18);
     img{
         width: 100%;
-        border: 1px inset black;
-        height: auto;
+        object-fit: contain;
+        border: 2px inset black;
+        height: 300px;
         display: block;
         border-radius: 20px 20px 0 0;
     }
@@ -40,10 +44,10 @@
 
 .details{
     padding: 10px;
-    border-radius: 0px 0px 10px 10px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    border-radius: 0px 0px 15px 15px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
     h3{
         color: black;
         font-weight: 600;
@@ -55,6 +59,7 @@
         font-size: 20px;
         line-height: 35px;
         margin-bottom: 5px;
+        font-family: 'Carter One', cursive
     }
     .addToCart{
         width: 100%;
@@ -65,8 +70,12 @@
         border-radius: 10px;
         height: 30px;
         font-size: 16px;
-        background-color: rgb(211, 41, 41);
+        background-color: #e587a7;
         border: 1px inset black;
+        transition: all 250ms ease 0s;
+    }
+    .addToCart:hover{
+        background-color: #ab647c;
     }
 }
  
