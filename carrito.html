@@ -28,19 +28,47 @@
 
     </header> 
 
-        <div class="content">
-            <div class="info">
-                <h1> ¡Bienvenido! </h1>
-                <p> Esta es la mejor tienda de mangas y comics de todo el pais. Contamos con stock infinito de todos los productos, con envío gratis y una gran variedad!</p>
-                <div class="botonesLandingPage">
-                    <a href="/mangas.html" class="info-btn">Ver Mangas</a>
-                    <a href="/comics.html" class="info-btn">Ver Comics</a>
-                    <a href="/productos.html" class="info-btn">Ver Productos</a>
-                </div>
-                <img src="/assets/siteStyles/choppaLanding.png" alt="">
-            </div>
-        </div>
-        
-        
+    <h1>Carrito de compras</h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Imagen</th>
+            <th scope="col">Item</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Total</th>
+          </tr>
+        </thead>
+        <tbody id="items"></tbody>
+        <tfoot>
+          <tr id="footer">
+            <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+          </tr>
+        </tfoot>
+      </table>
+
+    <template id="template-footer">
+        <th scope="row">Total Productos</th>
+        <td>10</td>
+        <td>
+            <button id="vaciar-carrito">
+                Vaciar Todo
+            </button>
+        </td>
+        <td>$ <span>5000</span></td>
+    </template>
+
+    <template id="template-carrito" > 
+        <tr>
+            <th scope="row">id</th>
+            <td><img class="imagenCarrito"></td>
+            <td>Cafe</td>
+            <td>1</td>
+            <td>$ <span></span></td>
+        </tr>
+    </template> 
+   
 </body>
+
+<script src="carrito.js"></script>
 </html>

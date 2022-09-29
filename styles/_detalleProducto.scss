@@ -1,0 +1,16 @@
+
+.contenedorDetalles{
+    display: flex;
+    justify-content: center;
+}
+
+
+.detallesProducto{
+    display: flex;
+    align-items: center;
+    background-color: #FE95B3;
+    border: 2px solid white;
+    border-radius: 36px;
+    height: 600px;
+    width: 900px;
+}

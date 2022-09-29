@@ -58,7 +58,6 @@
         color: black;
         font-size: 20px;
         line-height: 35px;
-        margin-bottom: 5px;
         font-family: 'Carter One', cursive
     }
     .addToCart{
@@ -72,10 +71,15 @@
         font-size: 16px;
         background-color: #e587a7;
         border: 1px inset black;
+        margin-top: 8px;
         transition: all 250ms ease 0s;
     }
     .addToCart:hover{
         background-color: #ab647c;
+    }
+    span{
+        color: gray;
+        
     }
 }
  
