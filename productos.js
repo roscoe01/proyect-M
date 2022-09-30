@@ -37,7 +37,24 @@ const addToCart = event => {
     if(event.target.classList.contains('addToCart')){
         setCart(event.target.parentElement.parentElement);
     }
+    const Toast = Swal.mixin({
+        toast: true,
+        position: 'bottom-end',
+        showConfirmButton: false,
+        timer: 1000,
+        timerProgressBar: false,
+        didOpen: (toast) => {
+          toast.addEventListener('mouseenter', Swal.stopTimer)
+          toast.addEventListener('mouseleave', Swal.resumeTimer)
+        }
+      })
+      
+      Toast.fire({
+        icon: 'success',
+        title: 'Se añadió el producto al carrito :)'
+      })
     event.stopPropagation();
+    
 }
 
 const setCart = objeto => {
